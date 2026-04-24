@@ -252,23 +252,23 @@ const Page = () => {
         </div>
         <div className='flex items-center justify-evenly md:justify-center md:gap-x-8 mt-8'>
           <Link
-            href={'/'}
+            href={'mailto:bagassatrio2805@gmail.com'}
             className='text-foreground/80 hover:underline hover:text-emerald-700'
           >
             EMAIL
           </Link>
           <Link
-            href={'/'}
+            href={'https://www.linkedin.com/in/bagassatrio/'}
             className='text-foreground/80 hover:underline hover:text-emerald-700'
           >
             LINKEDIN
           </Link>
-          <Link
+          {/* <Link
             href={'/'}
             className='text-foreground/80 hover:underline hover:text-emerald-700'
           >
             GITHUB
-          </Link>
+          </Link> */}
         </div>
       </div>
       <div id='Footer' className='font-inter text-foreground/80 pb-20'>

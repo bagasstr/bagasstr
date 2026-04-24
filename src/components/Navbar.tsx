@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
       </div>
       <Link
-        href={'/'}
+        href={'mailto:bagassatrio2805@gmail.com'}
         className='border font-inter text-sm text-foreground/80 rounded-full px-3 py-1'
       >
         Let's Talk
