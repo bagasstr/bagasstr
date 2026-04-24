@@ -123,7 +123,9 @@ const Page = () => {
               </article>
               <div className='mt-10'>
                 <Link
-                  href={'#'}
+                  href={'/cv.pdf'}
+                  target='_blank'
+                  rel='noopener noreferrer'
                   className='text-xs font-bold border border-foreground/10 flex items-center gap-x-2 w-fit font-inter px-5 py-3 rounded-full hover:bg-foreground hover:text-background transition-all'
                 >
                   VIEW CV <MoveUpRight size={14} />
