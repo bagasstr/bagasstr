@@ -120,6 +120,44 @@ const Page = () => {
                   Next.js, which allowed me to build more structured, scalable,
                   and efficient web applications.
                 </p>
+                <p>
+                  <span className='text-foreground font-semibold'>
+                    Along the way
+                  </span>
+                  , I’ve worked on several projects, including company profile
+                  websites and web-based applications for internal use. Through
+                  these experiences, I learned how to translate requirements
+                  into functional features, collaborate within a team, and write
+                  cleaner and more maintainable code.
+                </p>
+                <p>
+                  <span className='text-foreground font-semibold'>
+                    I also gained exposure to backend technologies{' '}
+                  </span>
+                  such as Node.js, Express, and PostgreSQL, which helped me
+                  better understand how frontend and backend systems work
+                  together. This allows me to build applications more
+                  effectively, even when working across different parts of the
+                  stack.
+                </p>
+                <p>
+                  <span className='text-foreground font-semibold'>
+                    I’m particularly interested{' '}
+                  </span>
+                  in building clean, responsive, and user-friendly interfaces,
+                  while maintaining performance and scalability. I believe that
+                  good design is not only about how things look, but also how
+                  they work and feel for the user.
+                </p>
+                <p>
+                  <span className='text-foreground font-semibold'>
+                    Currently{' '}
+                  </span>
+                  I continue to improve my skills by building projects, learning
+                  new tools, and exploring better ways to develop modern web
+                  applications. I’m always open to new challenges and
+                  opportunities that allow me to grow as a developer.
+                </p>
               </article>
               <div className='mt-10'>
                 <Link
@@ -207,7 +245,7 @@ const Page = () => {
             </h1>
             {/* <div className='bg-foreground/80 w-full h-px' /> */}
           </div>
-          <div className='font-passion space-y-2 text-2xl md:text-4xl lg:8xl cursor-pointer'>
+          <div className='font-passion space-y-2 text-3xl sm:text-5xl md:text-7xl lg:text-8xl cursor-pointer'>
             <h1 className=''>Say Hi!</h1>
             <span className='hover:text-emerald-700 hover:underline'>
               Let's Talk
