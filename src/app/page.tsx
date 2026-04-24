@@ -23,7 +23,7 @@ const Page = () => {
               Frontend Developer focused on building fast, scalable, and
               user-friendly web applications.
             </div>
-            <div className='flex flex-wrap gap-3 mt-4 md:mt-0'>
+            <div className='flex flex-col gap-3 mt-4 md:mt-0'>
               <div className='flex items-center font-inter border border-emerald-600/30 text-emerald-700 dark:border-emerald-400/20 dark:text-emerald-400 rounded-full w-fit pr-3 py-1.5 transition-colors'>
                 <Dot className='animate-pulse' />
                 <p className='text-[10px] md:text-xs font-semibold'>
