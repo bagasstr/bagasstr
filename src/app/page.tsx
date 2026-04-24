@@ -51,7 +51,7 @@ const Page = () => {
             {projects.map((project, i) => (
               <div
                 key={i}
-                className='group border border-foreground/5 rounded-2xl overflow-hidden md:flex md:flex-row-reverse bg-background dark:bg-muted/10 dark:border-foreground/5 transition-all hover:border-emerald-500/30'
+                className='group border border-foreground/5 rounded-2xl overflow-hidden md:flex md:flex-row-reverse md:items-start bg-background dark:bg-muted/10 dark:border-foreground/5 transition-all hover:border-emerald-500/30'
               >
                 <div className='relative aspect-video md:w-1/2 overflow-hidden'>
                   <Image
@@ -70,14 +70,18 @@ const Page = () => {
                       {project.head}
                     </h1>
                     <p className='font-inter text-sm mt-4'>{project.desc}</p>
-                    <div className='mt-4 w-full flex justify-end md:justify-start'>
-                      <Link
-                        href={project.url || '#'}
-                        className='text-xs font-medium flex items-center gap-x-2 border font-inter px-3 py-2 rounded-full'
-                      >
-                        VIEW PROJECT <MoveUpRight size={15} />
-                      </Link>
-                    </div>
+                    {project.url ? (
+                      <div className='mt-4 w-full flex justify-end md:justify-start'>
+                        <Link
+                          href={project.url || '#'}
+                          className='text-xs font-medium flex items-center gap-x-2 border font-inter px-3 py-2 rounded-full'
+                        >
+                          VIEW PROJECT <MoveUpRight size={15} />
+                        </Link>
+                      </div>
+                    ) : (
+                      ''
+                    )}
                   </div>
                 </div>
               </div>
