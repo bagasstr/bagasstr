@@ -26,6 +26,13 @@ export const projects: Project[] = [
     desc: 'Developing a property marketing website using Next.js to simplify the management and publication of listings online, with a focus on performance and responsive display.',
     url: '',
   },
+  {
+    image: '/multidownloader.png',
+    subHead: 'EXPERIMENTAL PROJECT / 2026',
+    head: 'YT Downloader Web App ',
+    desc: 'Built a web application for downloading and converting YouTube media using yt-dlp and ffmpeg, with a frontend interface for handling download requests and format selection. Explored challenges around serverless deployment limitations on Vercel.',
+    url: '',
+  },
 ];
 
 export const experience: Experience[] = [
