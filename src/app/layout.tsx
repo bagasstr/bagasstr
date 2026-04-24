@@ -16,7 +16,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'Bagas Satrio | Frontend Web Developer',
-  description: 'Frontend Developer focused on building fast, scalable, and user-friendly web applications.',
+  description:
+    'Frontend Developer focused on building fast, scalable, and user-friendly web applications.',
 };
 
 export default function RootLayout({
@@ -28,7 +29,23 @@ export default function RootLayout({
     <html
       lang='en'
       className={`${passionOne.variable} ${inter.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              try {
+                if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                  document.documentElement.classList.add('dark')
+                } else {
+                  document.documentElement.classList.remove('dark')
+                }
+              } catch (_) {}
+            `,
+          }}
+        />
+      </head>
       <body className={`${passionOne.className} min-h-full flex flex-col`}>
         <Navbar />
         {children}
