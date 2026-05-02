@@ -13,6 +13,13 @@ export interface Experience {
 
 export const projects: Project[] = [
   {
+    image: '/purchase_approval_system.png',
+    subHead: 'EXPERIMENTAL PROJECT',
+    head: 'Purchase Approval System',
+    desc: 'A robust procurement management system featuring a multi-stage approval workflow (Manager, Procurement, Finance) and granular RBAC. Built with Next.js and Prisma, it streamlines internal purchase requests with real-time tracking, automated quota deductions, and a centralized admin dashboard.',
+    url: '',
+  },
+  {
     image: '/multidownloader.png',
     subHead: 'EXPERIMENTAL PROJECT',
     head: 'YouTube Media Downloader',
