@@ -1,5 +1,3 @@
-# Hi there, I'm Bagas Satrio! 👋
-
 <p align="center">
   <a href="https://bagasstr.vercel.app" target="_blank">
     <img src="https://img.shields.io/badge/Website-bagasstr.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=111111" alt="Website" />
@@ -13,12 +11,6 @@
 ### 💫 About Me
 
 I am a passionate **FullStack Web Developer**
-
-I turn caffeine into code, and code into TypeScript errors that I eventually solve after a brief existential crisis. I focus on the React/Next.js ecosystem, and spend 80% of my time trying to center divs.
-
-- 🔭 I’m currently working on my personal portfolio and scaling full-stack projects.
-- 🎓 Recently graduated in IT (Class of 2025).
-- ⚡ Fun fact: I can spend hours perfecting a single micro-animation or hover transition that only 2% of users will actually notice.
 
 ---
 
