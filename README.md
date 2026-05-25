@@ -86,15 +86,6 @@ I am a passionate **FullStack Web Developer**
 
 --- -->
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="GitHub Profile Details" width="48%" />
-  <img src="./profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most Commit Language" width="48%" />
-</p>
-
----
-
 <p align="center">
   ✨ <i>"Vibe Coding solutions for complex problems."</i> ✨
 </p>
