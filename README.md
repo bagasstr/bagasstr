@@ -12,6 +12,8 @@
 
 I am a passionate **FullStack Web Developer**
 
+> "Why write your own code when you can just let AI do it for you?"
+
 ---
 
 ### 🛠️ Tech Stack & Tools
